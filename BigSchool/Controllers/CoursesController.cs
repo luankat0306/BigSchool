@@ -50,6 +50,8 @@ namespace BigSchool.Controllers
             _dbContext.SaveChanges();
 
             return RedirectToAction("Index", "Home");
+
+
         }
         
     }
