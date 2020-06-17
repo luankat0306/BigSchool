@@ -22,3 +22,22 @@ select,
 textarea {
     max-width: 280px;
 }
+.course {
+    list-style: none;
+}
+.course > li {
+    position: relative;
+    margin-bottom: 30px;
+}
+.course > li .date {
+    text-align: center;
+    background-color:dodgerblue;
+    color: white;
+    width: 50px;
+    border-radius: 7px;
+}
+.course > li .details {
+    position: absolute;
+    top: 0;
+    left: 70px;
+}
